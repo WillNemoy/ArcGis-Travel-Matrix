@@ -82,7 +82,7 @@ def main():
     }
 
     # Connect to the origin destination cost matrix service and call it
-    api_key = os.getenv("ARCGIS_API_KEY")
+    api_key =  os.getenv("ARCGIS_API_KEY")
     portal = arcgis.GIS("https://www.arcgis.com", api_key=api_key)
     od_cost_matrix = arcgis.network.ODCostMatrixLayer(portal.properties.helperServices.odCostMatrix.url,
                                                       gis=portal)
