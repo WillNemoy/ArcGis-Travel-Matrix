@@ -1,8 +1,8 @@
 
-python-dotenv
-pynytimes
+arcgis
 pandas
-openpyxl
+python-dotenv
+
 
 
 
